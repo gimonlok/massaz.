@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Массаж Регистрация</title>
+    <style>
+        .box{
+            border: 1px solid black;
+            width: 300px;
+            background-color: rgb(238, 207, 170);
+            border-radius: 5px;
+        }
+        .mr{
+            font-size: 20px;
+        }
+        .form_pol{
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+        }
+        .btn{
+            background-color: green;
+            color: white;
+            margin: 10px;
+        }
+        .btn:hover{
+            background-color: white;
+            color: green;
+        }
+        .dalee{
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 5px;
+            background-color: rgb(21, 21, 180);
+            color: white;
+            width: 100px;
+        }
+      
+        
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2 class="zagolovok">Массаж</h2>
+        <div class="registr">
+            <form>
+                <label for="my_name" class="my_label">Ваше имя:</label>
+                <input type="text" class="my_input" id="my_name" placeholder="Иван">
+                <div class="label">
+                    <label for="my_name" class="my_label">Ваша фамилия:</label>
+                <input type="text" class="my_input" id="my_name" placeholder="Иванов">
+                </div>
+                <div class="pol">
+                    <p class="form_pol">Выберите пол</p>
+                    <label for="">
+                        <span class="mr">Мужской</span>
+                        <input type="radio" name="gender">
+                    </label>
+                    <label for="">
+                        <span class="mr">Женский</span>
+                        <input type="radio" name="gender">
+                    </label>
+                    
+                </div>
+                <input type="submit" class="btn" value="Зарегистрироваться">
+            </form>
+            <div class="dalee">
+                <a href="massaz1.html">Продолжить</a>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <ul class="pred">
+            <li class="pred1">
+                <div class="uhead">Записываайся скорей</div>
+                <div class="text">Скидки</div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
